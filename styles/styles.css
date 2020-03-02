@@ -1,0 +1,104 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #ffffff;
+	/* font-size: 16px; */
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* app title */
+.main-wrapper .components-wrapper .app-name {
+	padding: 20px 0;
+}
+
+/* transaction */
+.block-transaction {
+	width: 100%;
+	position: relative;
+}
+.block-transaction .main-content {
+	width: 100%;
+	height: 100%;
+	padding: 50px 50px;
+	margin-bottom: 20px;
+	background-color: #efefef;
+	border-radius: 10px;
+	border-bottom: 2px solid #cecece;
+}
+.block-transaction .main-content .transaction-form label {
+	margin-bottom: 10px;
+}
+
+.block-transaction .main-content .main-result {
+	text-align: center;
+	margin-top: 30px;
+	border-top: 1px solid #cccccc;
+}
+
+.block-transaction .main-content .main-result h2 {
+	margin-top: 30px;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+.block-transaction .main-content .main-result .amount-price {
+	font-size: 3rem;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+
+.main-wrapper {
+	height: 100vh;
+}
+
+.block-entry {
+	display: block;
+}
+.show-components {
+	display: block;
+}
+
+/* buttons */
+.btn-custom {
+	margin: 0 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/* select */
+select {
+	width: 100%;
+	height: 50px;
+	padding: 0 10px;
+	margin-bottom: 20px;
+}
+
+/* inputs */
+input {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 0 10px;
+	height: 50px;
+	border: 1px solid #ececec;
+	border-radius: 8px;
+	color: #333333;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+li {
+	list-style-type: none;
+}
+.btn {
+	height: 50px;
+}
